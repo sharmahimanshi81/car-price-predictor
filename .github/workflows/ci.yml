@@ -1,1 +1,10 @@
 
+name: Step-1 Check
+
+on: push
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "GitHub Actions is working"
